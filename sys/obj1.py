@@ -10,12 +10,16 @@ class User:
         self.etc = etc
 
 def rescue(self):
+   
     if FileNotFoundError() is True:
         input("grub rescue ")
+   
     elif input == "restore":
             shutil.rmtree("grub")
+   
     elif input == "shutdown":
         input("attenzione,almeno che questa sia un vm suddetta azione è pericolosa! ")
+   
         if input == "shutdown -fr":
             print("executing shutdown")
             pass
