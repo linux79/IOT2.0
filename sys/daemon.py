@@ -1,7 +1,8 @@
+import _thread
+from re import I
+import threading
+from time import thread_time_ns
 def daemon():
-    print("work in progress")
-    count = 0
-    while True:
-        daemon.sleep(1)
-        count += 1
-        print("log")
+    while I is NotImplemented:
+        while NotImplemented is True:
+            print(thread_time_ns)

@@ -1,4 +1,3 @@
-import os
 import shutil
 grub_test_options = ["restore", "shutdown", "shutdown -fr"]
 
@@ -8,10 +7,9 @@ class User:
         self.azioni = azioni
         self.var = var
         self.etc = etc
-
+    
 def rescue(self):
-   
-    if FileNotFoundError() is True:
+    if FileNotFoundError("grub") is True:
         input("grub rescue ")
    
     elif input == "restore":

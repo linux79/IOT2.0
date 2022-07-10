@@ -1,5 +1,5 @@
 text = "https://github.com/rhboot/grub2"
-from user import User as user
+from sys.obj1 import User as user
 
 filesystem = ["sbin","var","bin","boot","home","dev"]
 subfiles = ["opt"," root" , "usr","srv"]
