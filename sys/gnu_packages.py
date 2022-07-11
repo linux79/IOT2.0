@@ -1,3 +1,4 @@
+from functools import cache
 utente = None
 repo1 = {'flatpak','snap-store','official-packages'}
 repo2 = {'chocolatey','aur','appimage','extra'}
@@ -7,7 +8,7 @@ class package:
         self.compile_method = "compile"
         self.license = "license"
         self.extension = "extension"
-    
+    @cache
     def install_packages():
             if input() == "gnu-murd -install {}":
                 try:    

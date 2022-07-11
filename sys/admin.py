@@ -1,7 +1,5 @@
 import shutil
 from curses import is_term_resized
-from gnu_packages import package
-from obj1 import User as user
 
 class super_user:
         def __init__(self,super):
