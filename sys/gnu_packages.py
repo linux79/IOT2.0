@@ -4,7 +4,7 @@ repo2 = {'chocolatey','aur','appimage','extra'}
 class package:
     
     def __init__(self,compile_method,license,extension):
-        self.compile_method = "compiled"
+        self.compile_method = "compile"
         self.license = "license"
         self.extension = "extension"
     

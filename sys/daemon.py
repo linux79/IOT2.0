@@ -1,8 +1,14 @@
-import _thread
-from re import I
-import threading
-from time import thread_time_ns
-def daemon():
-    while I is NotImplemented:
-        while NotImplemented is True:
-            print(thread_time_ns)
+import json
+json_string = '''
+    {"conf_file" : [
+                    {
+"[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
+PS1='[\u@\h \W]\$ '
+                    }
+    ]
+    }
+'''
+
+config = json.loads(json_string)
