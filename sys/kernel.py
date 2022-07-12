@@ -1,5 +1,7 @@
-from concurrent.futures import thread
-from email.generator import DecodedGenerator
-import threading
-if 1 +1 == 2:
-    print("ilcagosbu")
+from conf import barshrc
+import multiprocessing
+processes = ()
+def boot1():
+    boot1 = multiprocessing.Process(target=barshrc)
+boot1.start()
+boot1.join()

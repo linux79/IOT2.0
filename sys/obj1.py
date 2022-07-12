@@ -7,17 +7,6 @@ class User:
         
         def __init__(self,user_class):
             self.user_class = user_class
-        
-        def term_resized_user(self,**kwargs):
-            is_term_resized is True    
-            
-            if User == input(grub_test_options):
-                User == input(shutdown)
-            InterruptedError() is True
-            
-            while is_term_resized is True:
-                input() is not "{}".format
-            
         def rescue(self):
             
             if FileNotFoundError("grub") is True:
@@ -32,4 +21,16 @@ class User:
         if input == "shutdown":
             print("executing shutdown")
             shutdown
+class term_resized_user:
+        def __init__(self,additional_restrictions):
+            self.additional_restrictions = additional_restrictions
+        def term_resized_user(self,**kwargs):
+            is_term_resized is True    
             
+            if User == input(grub_test_options):
+                User == input(shutdown)
+            InterruptedError() is True
+            
+            while is_term_resized is True:
+                input() is not "{}".format
+                
