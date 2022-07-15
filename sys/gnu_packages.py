@@ -10,6 +10,7 @@ class package:
         self.extension = "extension"
     @cache
     def install_packages(self):
+            input()
             if input() == "gnu-murd -install {}":
                 try:    
                     input("paste build() ")

@@ -1,7 +1,6 @@
 from curses import is_term_resized
 from logging import shutdown
 import shutil
-
 grub_test_options = {"shutdown -fr"}
 class User:
         
@@ -17,10 +16,11 @@ class User:
    
             elif input == "":
                 input("warning,dangerius attencin ")
-   
-        if input == "shutdown":
-            print("executing shutdown")
-            shutdown
+        def ls(self):
+            print(User.__dict__)
+        def shutdown(self):
+                print("executing shutdown")
+                shutdown
 class term_resized_user:
         def __init__(self,additional_restrictions):
             self.additional_restrictions = additional_restrictions
@@ -33,4 +33,4 @@ class term_resized_user:
             
             while is_term_resized is True:
                 input() is not "{}".format
-                
+default_restricted_user = term_resized_user("default_restrictions")
